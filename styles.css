@@ -1,0 +1,57 @@
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .marvel-logo {
+    display: flex;
+    align-items: center;
+    background-color: #ed1d1d;
+    width: 350px;
+    height: 70px;
+}
+
+.box .marvel-logo:hover{
+    background-color: rgb(33, 36, 33);
+}
+
+.marvel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+    font-size: 72px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.box-gambar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+    padding: 20px;
+}
+
+.box-gambar img {
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+}
+
+h3{
+    color: #ed1d24;
+}
+
+p{
+    font-family: "Titillium Web", sans-serif;
+}
